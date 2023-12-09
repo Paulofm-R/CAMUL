@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #12CDD4;
+    padding: 15px;
+}
+
+header a {
+    font-size: 1.25em;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 15px;
+}
+
+#navigation {
+    padding-top: 10px;
+}
+
+#searchBar {
+    width: 95%;
+    margin-top: 15px;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    background-color: #050038;
+    height: 225px;
+    width: 100%;
+    padding: 45px;
+    padding-bottom: 0;
+}
+
+footer a {
+    margin: 2.5%;
+    color: white;
+}
+
+#footerNavigation {
+    padding: 2.5% 5% 0 5%;
+}
+
+#footerNavigation a {
+    text-decoration: none;
+}
