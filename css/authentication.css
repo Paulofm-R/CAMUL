@@ -1,0 +1,7 @@
+main > div {
+    margin: 10vh 0;
+}
+
+main > div > button {
+    margin: 3.5vh 0;
+}
