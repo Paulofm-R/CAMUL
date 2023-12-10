@@ -62,3 +62,19 @@ footer a {
 #footerNavigation a {
     text-decoration: none;
 }
+
+#divFeatured {
+    border: 1px solid black;
+    padding: 25px 15px
+}
+
+#divFeatured p {
+    margin: 20px 0;
+}
+
+#viewButtonFeatured {
+    margin: 10px 25px;
+    width: 100px;
+    height: 45px;
+    font-size: 1.15em;
+}
