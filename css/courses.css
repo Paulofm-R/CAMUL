@@ -1,0 +1,31 @@
+h2 {
+    margin: 2.5vh 1.5vw;
+}
+
+section {
+    margin: 5vh 3vw!important;
+}
+
+button{
+    background-color: white;
+    width: 145px!important;
+    height: 35px;
+}
+
+#listCourses {
+    border: 1px solid black;
+    padding: 45px;
+}
+
+#coursesFilters {
+    border: 1px solid black;
+    padding: 25px 45px;
+}
+
+#coursesFilters > div {
+    margin: 3.5vh 0;
+}
+
+.form-check{
+    margin: 15px 0;
+}
