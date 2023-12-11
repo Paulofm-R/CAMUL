@@ -17,6 +17,14 @@ button{
     padding: 45px;
 }
 
+#catalog {
+    margin-top: 100px;
+}
+
+#courseCatalog {
+    margin: 0 100px;
+}
+
 #coursesFilters {
     border: 1px solid black;
     padding: 25px 45px;

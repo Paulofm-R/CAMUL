@@ -1,0 +1,39 @@
+#course{
+    border: 1px solid black;
+    margin: 5vh 5vw;
+}
+
+#course > #courseTop {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px
+}
+
+#courseTop > div {
+    padding: 4.5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#courseTop > button {
+    margin: 0 10px;
+    width: 115px;
+    height: 95%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#courseTop > button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#courseTop > button:active {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#courseInf {
+    padding: 25px
+}
