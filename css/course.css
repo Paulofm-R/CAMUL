@@ -1,23 +1,23 @@
-#course{
+#course {
     border: 1px solid black;
     margin: 5vh 5vw;
 }
 
-#course > #courseTop {
+#course>#courseTop {
     background-color: black;
     color: white;
     text-align: right;
     padding: 5px
 }
 
-#courseTop > div {
+#courseTop>div {
     padding: 4.5px;
     border: 1px solid white;
     border-radius: 50px;
     display: inline-block;
 }
 
-#courseTop > button {
+#courseTop>button {
     margin: 0 10px;
     width: 115px;
     height: 95%;
@@ -26,14 +26,72 @@
     border: 1px solid white;
 }
 
-#courseTop > button:hover {
+#courseTop>button:hover {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-#courseTop > button:active {
+#courseTop>button:active {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
 #courseInf {
-    padding: 25px
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+
+}
+
+ul>li {
+    /* Prevent double borders */
+    background-color: #9c9c9c;
+    padding: 5px;
+}
+
+ul>ul>li {
+    border: 1px solid #ddd;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+}
+
+ul>ul>li:hover {
+    background-color: #c7c7c7;
+}
+
+li > button {
+    display: flex;
+    float: right;
+    background-color: #9c9c9c;
+    border: none;
+}
+
+#topInfo {
+    margin: 1.5vh 5vw;
+    font-size: 18pt;
+}
+ 
+#topInfo > div {
+    border-bottom: 1px solid black;
+}
+
+#topInfo span {
+    margin: 0 1.5vw;
+}
+
+section {
+    margin: 45px 5vw;
+}
+
+#features > li {
+    background-color: white;
+}
+
+hr {
+    border: 1px solid black!important;
+    opacity: 1!important;
 }

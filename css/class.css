@@ -1,0 +1,71 @@
+#course{
+    border: 1px solid black;
+    margin: 5vh 5vw;
+}
+#courseButtons button {
+    font-size: 1.2em; /* Increase font size */
+    padding: 10px 32px; /* Add more padding */
+    margin: 10px 5px; /* Add a little margin around buttons */
+    
+}
+
+#courseButtons button:active {
+    background-color: #e0e0e0; /* Lighter background color when clicked */
+    /* Add any additional styling for the clicked state */
+}
+
+#course > #courseTop {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px
+}
+
+#courseTop > div {
+    padding: 4.5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#courseTop > button {
+    margin: 0 10px;
+    width: 115px;
+    height: 95%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#courseTop > button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#courseTop > button:active {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#courseInf {
+    padding: 25px
+}
+
+#Video {
+    text-align: center; /* Center-align the content */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+#Video h2 {
+    
+    margin-bottom: 40px; /* Add bottom margin to the title for spacing */
+}
+
+#Video video {
+    width: 80%; /* Set the width of the video to 80% of its container */
+    max-width: 800px; /* Set a maximum width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+@media (max-width: 768px) {
+    #Video video {
+        width: 100%; /* Full width on smaller screens */
+    }
+}

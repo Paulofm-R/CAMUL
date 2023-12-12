@@ -13,6 +13,10 @@ section {
     margin: 7.5vh 0;
 }
 
+h1 > a {
+    font-size: 0.85em!important;
+}
+
 button:hover{
     background-color: lightgray;
 }
@@ -34,6 +38,13 @@ header a {
     margin: 20px;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 1440px) {
+    header a {
+        font-size: 1em;
+        margin: 15px;
+    }
+  }
 
 #navigation {
     padding-top: 10px;
@@ -137,6 +148,7 @@ footer a {
     border: none;
     height: 100%;
     width: 100%;
+    font-family: serif;
 }
 
 .topCategorie > button:hover {

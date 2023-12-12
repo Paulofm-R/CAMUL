@@ -3,12 +3,12 @@ h2 {
 }
 
 section {
-    margin: 5vh 3vw!important;
+    margin: 5vh 3vw !important;
 }
 
-button{
+button {
     background-color: white;
-    width: 145px!important;
+    width: 145px !important;
     height: 35px;
 }
 
@@ -30,10 +30,16 @@ button{
     padding: 25px 45px;
 }
 
-#coursesFilters > div {
+#coursesFilters>div {
     margin: 3.5vh 0;
 }
 
-.form-check{
+.form-check {
     margin: 15px 0;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
