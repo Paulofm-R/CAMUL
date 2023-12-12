@@ -24,3 +24,7 @@ API documentation -> https://camul-backend.onrender.com/api-docs
 
 ## css
 Where all the css information will be, it can be one per page with a general "style.css"
+
+# Init code 
+You only need to start with index.html
+or enter via this link: https://paulofm-r.github.io/CAMUL/
