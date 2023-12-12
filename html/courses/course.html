@@ -57,13 +57,15 @@
                 </div>
                 <div class="row" id="courseInf">
                     <div class="col-8">
-                        <img class="Sirv" data-src="https://paulorodrigues-isep.sirv.com/Camul/Chapter3_apresenta%C3%A7%C3%A3o_pages-to-jpg-0001.jpg" alt="courseImg">
+                        <img class="Sirv"
+                            data-src="https://paulorodrigues-isep.sirv.com/Camul/Chapter3_apresenta%C3%A7%C3%A3o_pages-to-jpg-0001.jpg"
+                            alt="courseImg">
                     </div>
                     <div class="col">
                         <ul>
                             <li>
                                 Unit 1 - Introduction to Medical Technology
-                                <button>
+                                <button class="unitButton" id="button_Unit1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                         <path
@@ -77,7 +79,7 @@
                             </ul>
                             <li>
                                 Unit 2 - Telemedicine and Remote Patient Monitoring
-                                <button>
+                                <button class="unitButton" id="button_Unit2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                         <path
@@ -91,7 +93,7 @@
                             </ul>
                             <li>
                                 Unit 3 - Artificial Intelligence in Medicine
-                                <button>
+                                <button class="unitButton" id="button_Unit3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                         <path
@@ -106,7 +108,7 @@
                             </ul>
                             <li>
                                 Unit 4 - Robotics in Surgery
-                                <button>
+                                <button class="unitButton" id="button_Unit4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                         <path
@@ -121,7 +123,7 @@
                             </ul>
                             <li>
                                 Unit 5 - Wearable Health Devices and the Future of Healthcare
-                                <button>
+                                <button class="unitButton" id="button_Unit5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                         <path
@@ -150,9 +152,14 @@
                     <h3>About Us</h3>
                     <p>Understand the role of technology in modern healthcare and its impact on patient care.</p>
                     <p>Learn about telemedicine and its applications in providing remote healthcare services.</p>
-                    <p>Explore the applications of artificial intelligence (AI) in medical diagnostics, treatment planning, and patient care.</p>
-                    <p>Learn about the use of robotics in surgical procedures and its advantages over traditional methods.</p>
-                    <p>Learn how these devices, such as smartwatches, health monitors, and other sensors, are being used to track vitals, physical activity, sleep quality, and more. The class will cover how wearable devices are transforming the way patients and doctors interact with health data, as well as implications for the future of medicine</p>
+                    <p>Explore the applications of artificial intelligence (AI) in medical diagnostics, treatment
+                        planning, and patient care.</p>
+                    <p>Learn about the use of robotics in surgical procedures and its advantages over traditional
+                        methods.</p>
+                    <p>Learn how these devices, such as smartwatches, health monitors, and other sensors, are being used
+                        to track vitals, physical activity, sleep quality, and more. The class will cover how wearable
+                        devices are transforming the way patients and doctors interact with health data, as well as
+                        implications for the future of medicine</p>
                 </div>
                 <hr>
                 <div>
@@ -213,8 +220,10 @@
             </div>
         </div>
     </footer>
-    <script src="../../app.js"></script>
 
+
+    <script src="../../app.js"></script>
+    <script src="../../js/View/courses.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
