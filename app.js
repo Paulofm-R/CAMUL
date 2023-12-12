@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (sessionStorage.userLogin) {
       divUsers.innerHTML = `
       <a>${sessionStorage.userLogin}</a>
-      <button class="btn" id="logout">Exit</button>
+      <button class="btn" id="logout">Log Out</button>
       `;
     } else {
       divUsers.innerHTML = `<a href="html/authentication/register.html">Register</a>

@@ -77,6 +77,10 @@ li > button {
     border: none;
 }
 
+li > button:hover {
+    background-color: #005fbe;
+}
+
 #topInfo {
     margin: 1.5vh 5vw;
     font-size: 16pt;

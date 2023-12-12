@@ -40,6 +40,10 @@ header a,
     margin-top: 15px;
 }
 
+#logout {
+    font-size: 1em!important;
+}
+
 @media screen and (max-width: 1440px) {
     header a {
         font-size: 1em;
