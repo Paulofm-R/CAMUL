@@ -1,3 +1,7 @@
+a {
+    text-decoration: none!important;
+}
+
 #course{
     border: 1px solid black;
     margin: 5vh 5vw;

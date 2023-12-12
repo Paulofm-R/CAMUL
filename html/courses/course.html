@@ -22,11 +22,13 @@
                 <input type="search" id="searchBar" name="searchBar" placeholder="  Search..." autocomplete="off" />
             </div>
             <div class="col-4" id="navigation">
-                <a href="html/courses/courses.html">Courses</a>
+                <a href="courses.html">Courses</a>
                 <a href="#">About</a>
                 <a href="#">FAQ</a>
-                <a href="../authentication/register.html">Register</a>
-                <a href="../authentication/login.html">Login</a>
+                <div id="users">
+                    <!-- <a href="html/authentication/register.html">Register</a>
+                    <a href="html/authentication/login.html">Login</a> -->
+                </div>
             </div>
         </div>
     </header>
@@ -55,13 +57,26 @@
                 </div>
                 <div class="row" id="courseInf">
                     <div class="col-8">
-                        <img src="https://paulorodrigues-isep.sirv.com/Camul/Chapter%202%20-%20Unit%201%20Introduction%20to%20Human%20Anatomy%20and%20Physiology.jpg?w=1080&h=640"
-                            class="card-img-top" alt="...">
+                        <img class="Sirv" data-src="https://paulorodrigues-isep.sirv.com/Camul/Chapter3_apresenta%C3%A7%C3%A3o_pages-to-jpg-0001.jpg" alt="courseImg">
                     </div>
                     <div class="col">
                         <ul>
                             <li>
-                                Unit 1 - Title
+                                Unit 1 - Introduction to Medical Technology
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                </button>
+                            </li>
+                            <ul>
+                                <li><a href="class.html">Video</a></li>
+                                <li><a href="exercices.html">Exercises</a></li>
+                            </ul>
+                            <li>
+                                Unit 2 - Telemedicine and Remote Patient Monitoring
                                 <button>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -75,36 +90,7 @@
                                 <li>Slides</li>
                             </ul>
                             <li>
-                                Unit 2 - Title
-                                <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                                    </svg>
-                                </button>
-                            </li>
-                            <ul>
-                                <li>Video</li>
-                                <li>Slides</li>
-                            </ul>
-                            <li>
-                                Unit 3 - Title
-                                <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                                    </svg>
-                                </button>
-                            </li>
-                            <ul>
-                                <li>Video</li>
-                                <li>Slides</li>
-                                <li>Exercises</li>
-                            </ul>
-                            <li>
-                                Unit 4 - Title
+                                Unit 3 - Artificial Intelligence in Medicine
                                 <button>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -119,7 +105,22 @@
                                 <li>Exercises</li>
                             </ul>
                             <li>
-                                Unit 5 - Title
+                                Unit 4 - Robotics in Surgery
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                                    </svg>
+                                </button>
+                            </li>
+                            <ul>
+                                <li>Video</li>
+                                <li>Slides</li>
+                                <li>Exercises</li>
+                            </ul>
+                            <li>
+                                Unit 5 - Wearable Health Devices and the Future of Healthcare
                                 <button>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -139,36 +140,27 @@
             </div>
             <div class="row" id="topInfo">
                 <div class="col-6">
-                    <span>Overview</span>
+                    <span><strong>Overview</strong></span>
                     <span>Comments</span>
-                    <span>More...</span>
+                    <span><a href="script.html">More...</a></span>
                 </div>
             </div>
             <section id="courseInfo">
                 <div>
                     <h3>About Us</h3>
-                    <p>
-                        Understand the basic anatomy and physiology of the human body, including the major organ systems
-                        and their functions.
-                        Explore the principles of medical terminology and develop proficiency in understanding and using
-                        medical terms.
-                        Gain knowledge of common diseases and disorders, their causes, symptoms, and treatment options.
-                        Learn about the importance of preventive medicine and strategies for maintaining good health.
-                        This unit will cover topics such as imaging tests (X-rays, MRI, CT scans), blood and urine
-                        analysis, genetic testing, and other diagnostic methods. Students will also understand the
-                        importance of early diagnosis in medical practice and how these tools play a crucial role in the
-                        health and well-being of patients.
-                    </p>
+                    <p>Understand the role of technology in modern healthcare and its impact on patient care.</p>
+                    <p>Learn about telemedicine and its applications in providing remote healthcare services.</p>
+                    <p>Explore the applications of artificial intelligence (AI) in medical diagnostics, treatment planning, and patient care.</p>
+                    <p>Learn about the use of robotics in surgical procedures and its advantages over traditional methods.</p>
+                    <p>Learn how these devices, such as smartwatches, health monitors, and other sensors, are being used to track vitals, physical activity, sleep quality, and more. The class will cover how wearable devices are transforming the way patients and doctors interact with health data, as well as implications for the future of medicine</p>
                 </div>
                 <hr>
                 <div>
                     <h3>Features</h3>
                     <ul id="features">
-                        <li>Anatomia e Fisiologia</li>
                         <li>Patologia</li>
                         <li>Farmacologia</li>
                         <li>Bioquímica Médica</li>
-                        <li>História da Medicina</li>
                     </ul>
                 </div>
                 <hr>
@@ -221,7 +213,8 @@
             </div>
         </div>
     </footer>
-    <script src=""></script>
+    <script src="../../app.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

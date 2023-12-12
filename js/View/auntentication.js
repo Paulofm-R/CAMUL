@@ -8,7 +8,8 @@ loginButton?.addEventListener('click', e => {
     const password = document.querySelector('#userPassword').value;
 
     if (users.some(user => user.email === email && user.password === password)) {
-        sessionStorage.setItem('userLogin', email)
+        const name = users.filter(user => user.email === email)
+        sessionStorage.setItem('userLogin', name[0].name)
         location.href = '../../index.html'
     } else {
         alert('invalid data!')
@@ -33,7 +34,7 @@ registerButton?.addEventListener('click', e => {
         });
         
         localStorage.setItem('users', JSON.stringify(users))
-        sessionStorage.setItem('userLogin', email)
+        sessionStorage.setItem('userLogin', name)
         location.href = '../../index.html'
     }
 });

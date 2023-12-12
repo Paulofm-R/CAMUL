@@ -1,3 +1,8 @@
+a {
+    text-decoration: none!important;
+    color: black !important;
+}
+
 #course {
     border: 1px solid black;
     margin: 5vh 5vw;
@@ -49,14 +54,16 @@ ul {
 
 ul>li {
     /* Prevent double borders */
-    background-color: #9c9c9c;
+    background-color: #0080ff;
     padding: 5px;
+    color: white;
 }
 
 ul>ul>li {
     border: 1px solid #ddd;
     /* Prevent double borders */
     background-color: #f6f6f6;
+    color: black;
 }
 
 ul>ul>li:hover {
@@ -66,13 +73,13 @@ ul>ul>li:hover {
 li > button {
     display: flex;
     float: right;
-    background-color: #9c9c9c;
+    background-color: #0080ff;
     border: none;
 }
 
 #topInfo {
     margin: 1.5vh 5vw;
-    font-size: 18pt;
+    font-size: 16pt;
 }
  
 #topInfo > div {
@@ -87,8 +94,13 @@ section {
     margin: 45px 5vw;
 }
 
+#features {
+    padding-left: 0px;
+}
+
 #features > li {
     background-color: white;
+    color: black;
 }
 
 hr {

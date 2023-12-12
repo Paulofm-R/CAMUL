@@ -6,10 +6,11 @@ section {
     margin: 5vh 3vw !important;
 }
 
-button {
+section button {
     background-color: white;
     width: 145px !important;
     height: 35px;
+    border: 1px solid black;
 }
 
 #listCourses {
