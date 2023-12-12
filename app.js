@@ -88,7 +88,7 @@ if (topCategories) {
     for (let i = 0; i < 10; i++) {
         topCategories.innerHTML += `
                     <div class="col-2 topCategorie">
-                        <button><strong><a href="html/courses/courses.html">${categories[i].name}</a></strong></button>
+                        <a href="html/courses/courses.html"><button><strong>${categories[i].name}</strong></button></a>
                     </div>
                     ` 
     }

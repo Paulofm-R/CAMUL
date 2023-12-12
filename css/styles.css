@@ -144,7 +144,8 @@ footer a {
     padding: 0!important;
 }
 
-.topCategorie > button {
+.topCategorie button,
+.topCategorie a {
     background-color: rgba(135, 206, 250, 0.45);
     border: none;
     height: 100%;
@@ -152,7 +153,7 @@ footer a {
     font-family: 'Playfair Display', serif;
 }
 
-.topCategorie > button:hover {
+.topCategorie button:hover {
     background-color: rgba(135, 206, 250, 0.75);
 }
 
